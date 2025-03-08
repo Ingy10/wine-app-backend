@@ -63,11 +63,8 @@ public class WineService {
         dto.setAlcoholContent(wine.getAlcoholContent());
         dto.setAcidity(wine.getAcidity());
         dto.setTannins(wine.getTannins());
-        dto.setTastingNote1(wine.getTastingNote1());
-        dto.setTastingNote2(wine.getTastingNote2());
-        dto.setTastingNote3(wine.getTastingNote3());
-        dto.setTastingNote4(wine.getTastingNote4());
-        dto.setTastingNote5(wine.getTastingNote5());
+        dto.setTastingNotes(wine.getTastingNotes());
+        dto.setCharacteristics(wine.getCharacteristics());
         dto.setServingTemp(wine.getServingTemp());
         dto.setFoodPairings(wine.getFoodPairings());
         
@@ -92,11 +89,8 @@ public class WineService {
         wine.setAlcoholContent(dto.getAlcoholContent());
         wine.setAcidity(dto.getAcidity());
         wine.setTannins(dto.getTannins());
-        wine.setTastingNote1(dto.getTastingNote1());
-        wine.setTastingNote2(dto.getTastingNote2());
-        wine.setTastingNote3(dto.getTastingNote3());
-        wine.setTastingNote4(dto.getTastingNote4());
-        wine.setTastingNote5(dto.getTastingNote5());
+        wine.setTastingNotes(dto.getTastingNotes());
+        wine.setCharacteristics(dto.getCharacteristics());
         wine.setServingTemp(dto.getServingTemp());
         wine.setFoodPairings(dto.getFoodPairings());
         

@@ -23,14 +23,9 @@ public class WineDTO {
     private BigDecimal alcoholContent;
     private String acidity;
     private String tannins;
-    
-    // Tasting notes
-    private String tastingNote1;
-    private String tastingNote2;
-    private String tastingNote3;
-    private String tastingNote4;
-    private String tastingNote5;
-    
+    private String tastingNotes;
+    private String characteristics;
+
     private String servingTemp;
     private String foodPairings;
 }
